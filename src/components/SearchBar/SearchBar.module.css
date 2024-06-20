@@ -1,0 +1,25 @@
+/* SearchBar.module.css */
+
+.container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.result {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
